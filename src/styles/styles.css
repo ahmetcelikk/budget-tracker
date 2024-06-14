@@ -1,0 +1,320 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  .nav-link {
+    color: white; /* Linklerin rengini beyaz yapar */
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* İsteğe bağlı olarak hover rengini ayarlayabilirsiniz */
+  }
+  
+  /* Sayfa Başlıkları */
+  h2 {
+    color: #4caf50; /* Sayfa başlıklarının rengini beyaz yapar */
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Butonlar */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form */
+  form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  /* Tablo */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* styles/styles.css */
+.net-total {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.net-total h3 {
+  margin: 0 0 10px 0;
+}
+
+.net-total p {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* styles/styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styles */
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #007bff;
+} */
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color:  #4caf50;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Exchange rates styles */
+.exchange-rates {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-rates h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+.exchange-rates .error-message {
+  color: #e74c3c;
+}
+
+.exchange-rates-list {
+  list-style-type:circle ;
+  padding: 0;
+  margin: 0;
+}
+
+.exchange-rate-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.exchange-rate-item:hover {
+  background-color: #f1f1f1;
+}
+
+.currency {
+  font-weight: bold;
+  color: #333;
+}
+
+.rate {
+  color: #4caf50;
+}
+/* CurrencyConverter.css */
+.currency-converter {
+  max-width: 600px; /* Maintain the maximum width of the content */
+  margin: 0 auto; /* Center the box horizontally */
+  padding: 20px; /* Increase the padding to maintain spacing inside the gray background */
+  background-color: #f0f0f0; /* Gray background color */
+  border-radius: 8px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.currency-converter h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+  flex-shrink: 0; /* Prevent label from growing */
+}
+.input-section-to {
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-section-to label {
+  font-weight: bold;
+  margin-right: 32px;
+  flex-shrink: 0; /* Prevent label from growing */
+}
+
+.currency-select {
+  flex-grow: 1; /* Allow select box to take up remaining space */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 100%; /* Ensure select fills its container */
+  max-width: 200px; /* Limit maximum width */
+}
+
+.amount-input {
+  flex-shrink: 0; /* Prevent input from growing */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+  margin-left: 19px;
+}
+
+.convert-button {
+  display: block; /* Ensure button behaves like a block element */
+  width: 150px; /* Set a fixed width */
+  margin: 10px auto; /* Center the button horizontally with top and bottom margin */
+  padding: 10px; /* Increase padding for better touch targets */
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.conversion-result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+  
